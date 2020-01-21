@@ -49,5 +49,4 @@ library(ggplot2)
 qplot(x=Limb.Width, y=Limb.Length, data=MData, shape=I(21), 
       colour=I(rgb(0,0,0)),size=I(5), fill=I("red"), 
       xlab = "Limb Width (mm)", 
-      ylab = "Limb Length(mm)") + theme_classic(base_size = 20)
-      
+      ylab = "Limb Length (mm)") + theme_classic(base_size = 20)

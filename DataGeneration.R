@@ -53,10 +53,10 @@ print(unitsL)
 
 #A data frame called "MyData" combining the variables created
 
-MyData = data.frame(Species, Limb.Width, unitsW, Limb.Length, unitsL)
+MyData = data.frame(Species, Limb.Width, unitsW, Limb.Length, unitsL, Volume)
 
 #The "write.csv" function allows the transfer of a data frame into a path that the user can select
 #In this case, it is "MyData". "row.names" set to TRUE simply keeps the row names assigned rather than removing (via FALSE)
 
-write.csv(MyData,"C:/Users/Jayan/Desktop/BIOL432/BIOL432-Assignment-2/MyData.csv", row.names = TRUE)
+write.csv(MyData,"C:/Users/Jayan/Desktop/BIOL432/BIOL432-Assignment-2/Data/measurements.csv", row.names = TRUE)
 
